@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Matter | Coming Soon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Base Styling */
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffffff;
+            /* Deep Charcoal Black */
+            color: #111111;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Container to constrain width */
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Logo Area */
+        .logo-container {
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            max-width: 180px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .business-name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: #B18E54;
+            /* Golden-Brown Accent */
+        }
+
+        /* Main Messaging */
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            font-weight: 400;
+            line-height: 1.2;
+            margin: 0 0 20px 0;
+            color: #B18E54;
+        }
+
+        p.subtitle {
+            font-size: 1.1rem;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #a0a0a0;
+            max-width: 600px;
+            margin: 0 auto 50px auto;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            border-top: 1px solid #333333;
+            padding-top: 40px;
+            width: 100%;
+        }
+
+        .contact-label {
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #666666;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .contact-link {
+            color: #B18E54;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-family: 'Playfair Display', serif;
+            transition: color 0.3s ease;
+            margin: 0 15px;
+            display: inline-block;
+        }
+
+        .contact-link:hover {
+            color: #B18E54;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            p.subtitle {
+                font-size: 1rem;
+            }
+
+            .contact-link {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="logo-container">
+            <img src="words-matter-logo.png" alt="Words Matter Logo" class="logo">
+
+        </header>
+
+        <main>
+            <h1>Powerful Words, Elevated Image</h1>
+            <p class="subtitle">Our digital experience is currently being curated and will launch next week. In the
+                meantime, we remain at your disposal for strategic PR and image elevation inquiries.</p>
+        </main>
+
+        <footer class="contact-info">
+            <span class="contact-label">Connect With Us</span>
+            <a href="mailto:noopurr@wordsmatter.in" class="contact-link">noopurr@wordsmatter.in</a>
+            <span class="contact-link" style="color: #333; pointer-events: none;">|</span>
+            <a href="tel:+919810498751" class="contact-link">+91 9810498751</a>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
